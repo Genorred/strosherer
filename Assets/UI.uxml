@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Stylesheets.uss?fileID=7433441132597879392&amp;guid=90167b59cc644ef4ab41a3def79fcfec&amp;type=3#Stylesheets" />
+    <ui:VisualElement name="body" class="main" style="flex-grow: 1; display: flex; justify-content: flex-start; padding-top: 72px; padding-right: 36px; padding-left: 36px; padding-bottom: 72px; background-image: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Textures/Brushed%20Metal%203.jpg?fileID=2800000&amp;guid=f88677df267a41d6be1e7a6133e7d227&amp;type=3#Brushed Metal 3&quot;);">
+        <ui:Label text="В жизни каждого человека случается такой момент, когда зашёл не зашёл не в ту дверь" name="Heading" class="heading" style="font-size: 72px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/LiberationSans.ttf?fileID=12800000&amp;guid=e3265ab4bf004d28a9537516768c1c75&amp;type=3#LiberationSans&quot;); -unity-text-align: upper-left; white-space: normal; letter-spacing: 1px; word-spacing: 1px; -unity-paragraph-spacing: 5px; background-image: url(&quot;project://database/Assets/TextMesh%20Pro/Examples%20&amp;%20Extras/Textures/Wipe%20Pattern%20-%20Diagonal.psd?fileID=2800000&amp;guid=ed5290d8df18488780e2996b9b882f01&amp;type=3#Wipe Pattern - Diagonal&quot;); flex-wrap: wrap; flex-direction: column;" />
+        <ui:VisualElement name="Navigation" style="flex-grow: 1;">
+            <ui:VisualElement name="Level1" class="startLevelComponent" style="flex-grow: initial; height: initial; -unity-background-image-tint-color: rgb(56, 56, 56); background-color: rgba(56, 56, 56, 0); background-image: none; background-size: 100px 100%; width: 400px;">
+                <ui:Button text="Button" name="Button" class="button startLevel-button" style="display: flex;" />
+                <ui:VisualElement name="Lock" class="startLevel-lock" style="flex-grow: 1; background-image: url(&quot;project://database/Packages/com.unity.collab-proxy/Editor/Assets/Images/iconlock@2x.png?fileID=21300000&amp;guid=ba96945b6a1b743579931a87e98041fe&amp;type=3#iconlock@2x&quot;); background-color: rgba(55, 55, 55, 0); display: flex; visibility: visible;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Level2" class="startLevel" style="flex-grow: initial; background-image: none;">
+                <ui:Button text="Button" name="Button" class="startLevel-button" />
+                <ui:VisualElement name="Lock" class="startLevel-lock" style="flex-grow: 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
